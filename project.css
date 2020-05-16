@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   font-family: 'Nunito Sans',sans-serif;
+   font-size: 15px;
+}
+ 
+  .logo-text{
+    font-size: 1.7em;
+    font-display:3em;
+    font-weight: 900;
+    
+    color: #F05136;
+}
+nav ul{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: none;
+}
+nav ul li{
+  margin:  0 20px;
+}
+.nav-link{
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color: #F05136;
+}
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: black;
+  color: white;
+  height: 450px;
+}
+header div p{
+  font-size: 2em;
+  font-weight: 200;
+}
+h1,h2,h3,h4{
+  font-weight: 800;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2.5em;
+}
+h3{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1em
+}
+.link-button{
+  text-decoration: none;
+  background-color: #F05136;
+  cursor: pointer;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 1.5em;
+  border-color: black;
+}
+.link-button:hover{
+  color: white;
+}
+#bio{
+  display: flex;
+  align-items: center;
+}
+#bio article *{
+  margin: 20px;
+}
+#bio img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 100px;
+}
+ p{
+  font-size: 1.5em;
+}
+#portfolio{
+  background : url(portfolio-background.svg);
+  background : black;
+  color: white;
+}
+#portfolio,#skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+#portfolio div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 100%;
+}
+#portfolio div article {
+  background: white;
+  color: black;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+#skills-container{
+  display: flex;
+  flex-direction: normal;
+  justify-content:space-around;
+  width: 100%;
+}
+#skills-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills ul{
+  list-style: none; 
+}
+#skills ul li{
+  margin: 10px 0;
+}
+progress[value]{
+
+  height: 10px;
+
+  width: 350px;
+
+  -webkit-appearance: none;
+
+}
+progress[value]::-webkit-progress-value 
+{
+    background-color: #F05136;
+  
+    border-radius: 2px;
+    
+    box-shadow: 0 2px 5px rgba(0 , 0 , 0 , 0.25) inset; 
+  }
+
+
+::-webkit-progress-bar {
+  background-color: grey;
+}
+
+.h{
+  font-size: 20px;
+}
+.h2{
+  font-size: 20px;
+}
+#skills ul{
+  font-size: 20px;
+}
+#contact{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input{
+  line-height: 2em;
+  width: 550px;
+  border-radius: 3px;
+  border-color: black;
+  margin: 20px;
+}
+#contact form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5%;
+}
